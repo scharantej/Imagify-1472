@@ -1,0 +1,31 @@
+
+<!-- Homepage with form for generating AI-generated image background -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Image Background Generator</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1>AI Image Background Generator</h1>
+<p>Generate a unique and eye-catching image background for your product using AI.</p>
+<form action="/generate-image" method="POST">
+<div class="form-group">
+<label for="product_name">Product Name:</label>
+<input type="text" class="form-control" id="product_name" name="product_name" required>
+</div>
+<div class="form-group">
+<label for="product_description">Product Description:</label>
+<textarea class="form-control" id="product_description" name="product_description" required></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Generate Image</button>
+</form>
+</div>
+</body>
+</html>
+
+
